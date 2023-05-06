@@ -1,16 +1,21 @@
 // Add comments to explain what this function does. You're meant to use Google!
 function getNumber() {
-  return Math.random() * 10;
+  return Math.random() * 10; 
+  /*The Math.random() static method returns a floating-point, pseudo-random number that's greater than or equal 
+  to 0 and less than 1, with approximately uniform distribution over that range — which you can then scale to your 
+  desired range. The implementation selects the initial seed to the random number generation algorithm; it cannot be
+   chosen or reset by the user.*/
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
 function s(w1, w2) {
   return w1.concat(w2);
-}
+} //The concat() method concatenates the string arguments to the calling string and returns a new string.
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
+  return firstWord.concat(' ',secondWord,' ', thirdWord)
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
